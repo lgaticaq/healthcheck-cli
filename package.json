@@ -1,6 +1,6 @@
 {
   "name": "healthcheck-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Minimal CLI for check healthcheck in node apps with docker",
   "main": "src",
   "bin": {
