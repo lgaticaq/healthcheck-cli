@@ -9,9 +9,15 @@
 
 ## Use
 
+```bash
+healtcheck <host> <port> <path>
+# Example
+healtcheck 127.0.0.1 3000 /healtcheck
+```
+
 Install `healtcheck-cli` as global dependency and add `HEALTHCHECK` instruction.
 
-## Example
+## Dockerfile Example
 
 ```Dockerfile
 FROM node:8-onbuild
