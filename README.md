@@ -21,7 +21,7 @@ RUN npm i -g healtcheck-cli
 EXPOSE 3000
 
 HEALTHCHECK --interval=10s --timeout=3s \
-  CMD node src/healtcheck.js 127.0.0.1 3000 /healthcheck
+  CMD healtcheck 127.0.0.1 3000 /healthcheck
 ```
 
 ## Licencia
